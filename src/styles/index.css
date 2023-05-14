@@ -115,13 +115,22 @@ header {
     display: flex;
     margin-left:auto;
     width: 100px;
+    justify-content: space-around;
+}
+
+#share .img-container {
+    width: 24px;
+    background-color: #00653f;
+    border-radius:16px;
+    padding:4px
 }
 
 #share .img {
-    width: 100%;
-    margin:auto;
+    width: 16px;
+    margin: auto;
 }
 
 #share img {
-    width:16px;
+    width:100%;
+    margin:auto;
 }
