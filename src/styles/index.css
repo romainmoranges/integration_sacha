@@ -112,6 +112,10 @@ header {
     margin:auto;
 }
 
+.see-more {
+    color: rgb(255, 95, 50);
+}
+
 h2 {
     display:flex;
     align-items: center;
