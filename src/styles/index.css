@@ -107,11 +107,15 @@ header {
 
 /* main */
 
+.main-container {
+    width:90%;
+    margin:auto;
+}
+
 h2 {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:90%;
     margin:auto;
 }
 
