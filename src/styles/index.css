@@ -1,5 +1,14 @@
+/* fonts */
+
+@font-face {
+    font-family: "Muli";
+    src: url("../assets/fonts/muli/Muli.ttf");
+}
+
+/* light reset css */
 body {
     margin: 0px;
+    font-family: Muli;
 }
 
 /* header */   
@@ -94,4 +103,25 @@ header {
 #language {
     display: flex;
     align-items: center;
+}
+
+/* main */
+
+#title {
+    background-color: #c0e3d1;
+}
+
+#share {
+    display: flex;
+    margin-left:auto;
+    width: 100px;
+}
+
+#share .img {
+    width: 100%;
+    margin:auto;
+}
+
+#share img {
+    width:16px;
 }
