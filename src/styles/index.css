@@ -107,6 +107,23 @@ header {
 
 /* main */
 
+h2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+}
+
+h2 > p {
+    width:45%;
+}
+
+h2 > div {
+    height:1px;
+    background-color: #00653f;
+    width:45%;
+}
 /* title section */
 
 #title {
@@ -163,7 +180,7 @@ header {
 /* localisation */
 
 #localisation {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -182,7 +199,6 @@ header {
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute
 }
 
 #img-description .over-button {
@@ -206,4 +222,11 @@ header {
     position:relative;
     top: 410px;
     margin:auto;
+}
+
+#description p {
+    width: 90%;
+    border-bottom: solid #c0e3d1 1px;
+    margin: auto;
+    padding: 12px;
 }
