@@ -88,6 +88,7 @@ header {
 
 #account > div img:nth-child(2) {
     margin-left: 8px;
+    width:8px
 }
 
 #language {
