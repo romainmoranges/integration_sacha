@@ -108,8 +108,8 @@ header {
 /* main */
 
 .main-container {
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
 
 .see-more {
@@ -117,21 +117,22 @@ header {
 }
 
 h2 {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:auto;
+    margin: auto;
 }
 
-h2 > p {
-    width:45%;
+h2>p {
+    width: 45%;
 }
 
-h2 > div {
-    height:1px;
+h2>div {
+    height: 1px;
     background-color: #00653f;
-    width:45%;
+    width: 45%;
 }
+
 /* title section */
 
 #title {
@@ -211,9 +212,9 @@ h2 > div {
 
 #img-description .over-button {
     width: 128px;
-    padding:8px;
+    padding: 8px;
     background-color: #00653f;
-    color:white;
+    color: white;
     border-radius: 18px;
     font-size: 10pt;
     text-transform: capitalize;
@@ -222,14 +223,14 @@ h2 > div {
 
 #img-description #all-inclusive {
     position: relative;
-    top:20px;
-    left:40px;
+    top: 20px;
+    left: 40px;
 }
 
 #img-description #see-more {
-    position:relative;
+    position: relative;
     top: 410px;
-    margin:auto;
+    margin: auto;
 }
 
 #description p {
@@ -237,4 +238,22 @@ h2 > div {
     border-bottom: solid #c0e3d1 1px;
     margin: auto;
     padding: 12px;
+}
+
+/* Hote */
+
+#hote .img-container {
+    width: 12px;
+    margin-left:4px;
+}
+
+#hote .img-container img {
+    width: 100%;
+    margin: auto;
+}
+
+#hote #contact {
+    display: flex;
+    margin: 16px 0px;
+    color:#00653f;
 }
