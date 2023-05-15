@@ -4,4 +4,9 @@ Il s'agit d'un exercice visant à découvrir le HTML (**H**yper**T**ext **M**ark
 
 On verra à travers un exemple comment apporter des améliorations, des corrections ou des nouvelles fonctionnalités à un projet web statique. 
 
-Sur cette version du projet, on a le résultat final.
+------------------------------
+
+Maintenant on va essayer de résoudre des bugs dans la page. 
+
+* le logo ne s'affiche plus
+* Il y a une ligne soulignée en trop par rapport à la version de base: ![](./images/capture-ecran-description-souligne.png)
